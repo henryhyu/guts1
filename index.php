@@ -28,7 +28,7 @@ require 'db/connect.php';
 // fetch_assoc() = associative array
 // Array with first name, last name
 
-if($result = $db->query("SELECT * FROM user")){
+if($result = $db->query("SELECT * FROM users")){
   if($count = $result->num_rows){
     // echo out number of rows in the query
     echo '<p>', $count, '</p>';

@@ -11,7 +11,7 @@
 // database object
 // new mysqli object
 // mysqli ('host', 'user', 'pass', 'database') constructor function, pass in parameters
-$db = new mysqli('localhost', 'root', '', 'school');
+$db = new mysqli('localhost', 'root', '', 'registration');
 
 // supplies with an error number if the connection has failed
 // if it is 0, we have connected, if it is +, then there is error
